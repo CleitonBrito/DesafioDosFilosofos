@@ -150,7 +150,7 @@
 				<div class="introducao">
 					<div class="row">
 						<div class="col-4">
-							<img id="sombra-0" style="display: block" class="filosofo_sombra" src="<?= base_url('imagens/filosofo_sombra.png') ?>">
+							<img id="sombra-0" style="display: block" class="filosofo_sombra" src="<?= base_url('imagens/filosofo_sombra.png'); ?>">
 							<img id="sombra-1" style="display: contents;" class="filosofo_sombra" src="<?= base_url('imagens/Filosofo1.png'); ?>">
 							<img id="sombra-2" style="display: contents;" class="filosofo_sombra" src="<?= base_url('imagens/Filosofo2.png'); ?>">
 							<img id="sombra-3" style="display: contents;" class="filosofo_sombra" src="<?= base_url('imagens/Filosofo3.png'); ?>">
