@@ -63,7 +63,7 @@ button:hover {
 
 .container#fundo {
 	width: 100%;
-	background-image: url('/css/Banner-inicial.png');
+	background-image: url('css/banner_inicial.png');
 	background-repeat: no-repeat;
 	padding: 0px!important;
 }
