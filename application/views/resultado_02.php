@@ -80,7 +80,7 @@
 					<div class="informacoes">
 						<div class="alert dead" role="alert">
 						<h5 id="titulo-mensagem">DeadLock</h6>
-						<h6 id="mensagem">Ocorreram impasses no qual o Filósofo não pôde pegar o garo, pois já estava sendo usado por outro Filósofo e ele foi obrigado a devolver o garfo à mesa.</h6>
+						<h6 id="mensagem">Ocorreram impasses no qual o Filósofo não pôde pegar o garfo, pois já estava sendo usado por outro Filósofo e ele foi obrigado a devolver o garfo à mesa.</h6>
 						</div>
 					</div>
 				<?php } ?>
