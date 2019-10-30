@@ -166,8 +166,8 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="<?= base_url('js/regra_01'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/cronometro_jogo1'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/jogo01'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/regra_01.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/cronometro_jogo1.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/jogo01.js'); ?>"></script>
 </body>
 </html>
