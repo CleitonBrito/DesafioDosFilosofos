@@ -14,13 +14,13 @@
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img class="img-jantar" src="<?= base_url('imagens/Ojantar.png'); ?>">
+					<img class="img-jantar" src="<?= base_url('imagens/ojantar.png'); ?>">
 
-					<img class="img-jantar" id="filo1" style="display: block;" src="<?= base_url('/imagens/filo1.png'); ?>">
-					<img class="img-jantar" id="filo2" style="display: block;" src="<?= base_url('/imagens/filo2.png'); ?>">
-					<img class="img-jantar" id="filo3" style="display: block;" src="<?= base_url('/imagens/filo3.png'); ?>">
-					<img class="img-jantar" id="filo4" style="display: block;" src="<?= base_url('/imagens/filo4.png'); ?>">
-					<img class="img-jantar" id="filo5" style="display: block;" src="<?= base_url('/imagens/filo5.png'); ?>">
+					<img class="img-jantar" id="filo1" style="display: block;" src="<?= base_url('imagens/filo1.png'); ?>">
+					<img class="img-jantar" id="filo2" style="display: block;" src="<?= base_url('imagens/filo2.png'); ?>">
+					<img class="img-jantar" id="filo3" style="display: block;" src="<?= base_url('imagens/filo3.png'); ?>">
+					<img class="img-jantar" id="filo4" style="display: block;" src="<?= base_url('imagens/filo4.png'); ?>">
+					<img class="img-jantar" id="filo5" style="display: block;" src="<?= base_url('imagens/filo5.png'); ?>">
 
 					<img class="img-jantar" id="filo1_pensando" style="display: contents;" src="<?= base_url('/imagens/filo1_pensando.png'); ?>">
 					<img class="img-jantar" id="filo2_pensando" style="display: contents;" src="<?= base_url('/imagens/filo2_pensando.png'); ?>">
