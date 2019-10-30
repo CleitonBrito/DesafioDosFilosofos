@@ -3,6 +3,7 @@
 <head>
 	<title>Projeto SO</title>
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/inicio.css'); ?>">
+	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>" crossorigin="anonymous">
 	<script type="text/javascript" src="<?= base_url('js/jquery-1.10.0.min.js'); ?>"></script>
 </head>
