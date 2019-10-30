@@ -14,8 +14,7 @@
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img class="img-jantar" src="<?= base_url('../imagens/ojantar.png'); ?>">
-					<?php echo base_url('imagens'); ?>
+					<img class="img-jantar" src="<?= base_url('imagens/ojantar.png'); ?>">
 
 					<img class="img-jantar" id="filo1" style="display: block;" src="<?= base_url('imagens/filo1.png'); ?>">
 					<img class="img-jantar" id="filo2" style="display: block;" src="<?= base_url('imagens/filo2.png'); ?>">
