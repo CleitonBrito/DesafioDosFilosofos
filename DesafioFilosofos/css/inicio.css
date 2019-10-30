@@ -1,0 +1,69 @@
+body {
+	background-color: #fffee5!important;
+}
+
+html, body {
+	position: relative;
+	top: 10%;
+	width: 90%!important;
+	height: 90%!important;
+	margin: auto!important;
+	vertical-align: middle!important;
+}
+
+.botao {
+	position: relative;
+	top: 30%;
+	text-align: center!important;
+	height: 100px!important;
+}
+
+.btn {
+	font-size: 3rem!important;
+	color: #fff!important;
+}
+
+h1 {
+	position: relative;
+	top: 10%;
+	text-align: center;
+}
+
+h4 {
+	position: relative;
+	top: 25%;
+	text-align: center;
+}
+
+button {
+	width: 40%;
+	height: 100%;
+	border-radius: 100px!important;
+	background-color: #FFA500;
+	font-family: 'Arial Rounded MT'!important;
+	transition: 1s!important;
+}
+
+button:hover {
+	filter: brightness(70%);
+	box-shadow: 2px 2px 3px #000;
+	border-width: 3px;
+	border-color: #000!important;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}
+
+.container#fundo {
+	width: 100%;
+	background-image: url('../imagens/Banner-inicial.png');
+	background-repeat: no-repeat;
+	padding: 0px!important;
+}

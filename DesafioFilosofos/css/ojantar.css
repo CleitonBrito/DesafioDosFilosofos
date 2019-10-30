@@ -1,0 +1,149 @@
+body {
+	background-color: #fff!important;
+}
+
+html, body {
+	position: relative;
+	top: 3%;
+	width: 96%!important;
+	height: 96%!important;
+	margin: auto!important;
+	vertical-align: middle!important;
+}
+
+.container#fundo {
+	background-color: #9bb2b94a;
+	width: 100%!important;
+	display: flex;
+	align-items: center;
+}
+
+.row {
+	position: relative;
+	height: 10%!important;
+}
+
+.botao {
+	position: relative;
+	top: 30%;
+	text-align: center!important;
+	height: 100px!important;
+}
+
+.btn {
+	font-size: 1rem!important;
+	color: #fff!important;
+}
+
+.informacao {
+	width: 90%!important;
+	padding-top: 5%!important;
+	padding-left: 5%!important;
+	padding-right: 5%!important;
+	padding-bottom: 2%!important;
+	background-color: #eee!important;
+	border-radius: 15px;
+	position: relative!important;
+	margin: auto;
+	font-size: 150%!important;
+}
+
+.col-5 {
+	display: flex;
+	vertical-align: middle;
+}
+
+.col-7 {
+	margin: auto!important;
+}
+
+.col-5, .col-7 {
+	height: 100%!important;
+	position: relative;
+	vertical-align: middle!important;
+}
+
+.jantar {
+	text-align: center!important;
+	width: 100%;
+	height: 100%;
+}
+
+.imags{
+	position: relative;
+}
+
+img {
+	top: 0%;
+	border-radius: 50px;
+	width: 100%!important;
+}
+
+h1 {
+	width: 50%;
+	height: 5%;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	margin-top: 2%!important;
+	text-align: center;
+	font-size: 1.5rem!important;
+	background-color: #fff;
+}
+
+h2 {
+	width: 100%;
+	font-size: 100%!important;
+	position: relative;
+	text-align: center;
+	font-weight: bold!important;
+}
+
+p {
+	text-align: justify;
+	text-indent: 10%;
+}
+
+.btn {
+	outline: 0px!important;
+	border: none!important;
+	white-space: normal!important;
+}
+
+.btn:focus {
+	outline: 0px!important;
+	box-shadow: none!important;
+}
+
+
+button {
+	width: 30%;
+	height: 10%;
+	border-radius: 100px!important;
+	background-color: #18aa00;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+button.botao-anterior {
+
+}
+
+button:hover {
+	box-shadow: 2px 2px 3px #000;
+	border-width: 3px;
+	border-color: #000!important;
+}
+
+button:focus {
+	outline: 0px!important;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}

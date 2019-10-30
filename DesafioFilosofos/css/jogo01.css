@@ -1,0 +1,314 @@
+body {
+	background-color: #fff!important;
+}
+
+html, body {
+	position: relative;
+	top: 3%;
+	width: 96%!important;
+	height: 96%!important;
+	margin: auto!important;
+	vertical-align: middle!important;
+}
+
+h6 {
+	margin-bottom: 0px!important;
+	margin-left: 10px;
+}
+
+#contador{
+	position: relative!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+    font-size: 10px;
+    height: 50px;
+    float: right!important;
+}
+
+.reloj{
+    font-size: 170%;
+    font-family: 'Orbitron', sans-serif;
+    color: #363431;
+    float: left;
+}
+
+.container#fundo {
+	background-image: url('../imagens/Banner.png');
+	background-repeat: no-repeat;
+	width: 100%!important;
+}
+
+.row {
+	position: relative;
+	height: 100%!important;
+}
+
+.botao {
+	position: relative;
+	top: 30%;
+	text-align: center!important;
+	height: 100px!important;
+}
+
+.btn {
+	font-size: 1rem!important;
+	color: #fff!important;
+}
+
+.btn-group>.btn:hover {
+	z-index: 0!important;
+	width: 60%;
+	transition: 0.1s;
+}
+
+.introducao {
+	width: 90%!important;
+	padding-top: 5%!important;
+	padding-left: 5%!important;
+	padding-right: 5%!important;
+	padding-bottom: 2%!important;
+	background-color: #eee!important;
+	border-radius: 15px;
+	position: relative!important;
+	margin: auto;
+	font-size: 150%!important;
+	box-shadow: 1px 2px 2px 2px #757575;
+}
+
+.informacoes {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 85%;
+}
+
+.acoes {
+	box-shadow: 1px 2px 5px black!important;
+}
+
+#info {
+	width: 80%;
+}
+
+.col-4 {
+	display: flex;
+	align-items: center;
+}
+
+.col-3, .col-9 {
+	height: 100%
+	padding: 0px!important;
+}
+
+.col-8 {
+	display: grid;
+	align-items: center;
+}
+
+.col-9 {
+	display: -webkit-box;
+}
+
+.col-5 {
+	display: grid;
+	vertical-align: middle;
+}
+
+.col-7 {
+	display: flex;
+	align-items: center!important;
+	margin: auto!important;
+}
+
+.col-12 {
+	height: 90%;
+	display: -webkit-box;
+}
+
+.col-5, .col-7 {
+	height: 100%!important;
+	position: relative;
+	vertical-align: middle!important;
+}
+
+.col-9{
+	display: flex;
+	align-items: center;
+}
+
+.jantar {
+	display: block;
+	text-align: center!important;
+	width: 100%;
+	height: 100%;
+}
+
+label.botao-comer.active {
+	background-color: #39ce21ed;
+	box-shadow: 0px 3px 0px #000!important;
+	color: #fff!important;
+}
+
+label.botao-pensar.active {
+	background-color: #0006dc;
+	box-shadow: 0px 3px 0px #000!important;
+	color: #fff!important;
+}
+
+.btn.disabled {
+	color: #000!important;
+}
+
+.desabilita-click {
+	cursor: not-allowed!important;
+	pointer-events: none;
+	background-color: #000;
+}
+
+.imags{
+	display: flex;
+	justify-content: center;
+	width: 100%!important;
+}
+
+.img-filosofos {
+	width: 100%;
+	display: grid;
+}
+
+.coracao {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img#img-coracao {
+	width: 20%;
+}
+
+.filosofo_sombra {
+	width: 80%;
+}
+
+img {
+	top: 0%;
+	border-radius: 50px;
+	width: 75%;
+}
+
+img.img-jantar{
+	position: absolute;
+}
+
+img.relogio {
+	width: 15%;
+	margin-right: 10px;
+}
+
+img.relogio-1 {
+	width: 50%;
+	margin-right: 10px;
+}
+
+.div-relogio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+	width: 50px;
+	height: 25px;
+}
+
+h1 {
+	width: 50%;
+	height: 5%;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	margin-top: 2%!important;
+	text-align: center;
+	font-size: 1.5rem!important;
+	background-color: #fff;
+}
+
+h2 {
+	width: 100%;
+	font-size: 100%!important;
+	position: relative;
+	text-align: center;
+	font-weight: bold!important;
+}
+
+p {
+	text-align: justify;
+	text-indent: 10%;
+}
+
+.btn {
+	outline: 0px!important;
+	border: none!important;
+	white-space: normal!important;
+}
+
+.btn:focus {
+	outline: 0px!important;
+	box-shadow: none!important;
+}
+
+button {
+	width: 30%;
+	height: 10%;
+	border-radius: 100px!important;
+	background-color: #d52f28;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+button:hover {
+	box-shadow: 2px 2px 3px #000;
+	border-width: 3px;
+	border-color: #000!important;
+	z-index: 0!important;
+}
+
+button:focus {
+	outline: 0px!important;
+}
+
+.botao-anterior, .botao-proximo, .botao-comer, .botao-pensar {
+	width: 100%;
+	height: 100%;
+}
+
+.botao-comer {
+	background-color: #39ce212b;
+	color: #000!important;
+}
+
+.botao-pensar {
+	background-color: #0006dc4a;
+	color: #000!important;
+}
+
+.btn-group.btn-group-toggle.botoes-filosofos {
+	width: 100%;
+}
+
+label.botao-comer, label.botao-pensar {
+	width: 50%;
+}
+
+.col-5.botoes {
+	display: unset!important;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}
