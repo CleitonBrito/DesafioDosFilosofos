@@ -47,6 +47,6 @@
 					</div>
 				</div>
 	</div>
-	<script src="<?= base_url('js/carrossel'); ?>"></script>
+	<script src="<?= base_url('js/carrossel.js'); ?>"></script>
 </body>
 </html>
