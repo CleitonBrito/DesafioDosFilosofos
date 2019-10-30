@@ -35,7 +35,7 @@ h6 {
 }
 
 .container#fundo {
-	background-image: url('../imagens/Banner.png');
+	background-image: url('/imagens/Banner.png');
 	background-repeat: no-repeat;
 	width: 100%!important;
 }
