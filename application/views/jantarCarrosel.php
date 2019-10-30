@@ -20,7 +20,7 @@
 				    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 				  </ol>
 				  <div class="carousel-inner">
-				    <div class="carousel-item active">
+				    <div class="carousel-item active begin">
 				      <img class="d-block w-100" src="<?= base_url('imagens/teste.png'); ?>" alt="Primeiro Slide">
 				    </div>
 				    <div id="primeiro" class="carousel-item">
@@ -32,7 +32,7 @@
 				    <div id="ultimo" class="carousel-item">
 				      <img class="d-block w-100" src="<?= base_url('imagens/teste3.gif'); ?>" alt="Quarto Slide">
 				    </div>
-				    <div class="carousel-item">
+				    <div class="carousel-item end">
 				      <img class="d-block w-100" src="<?= base_url('imagens/teste4.png'); ?>" alt="Quinto Slide">
 				    </div>
 				  </div>
