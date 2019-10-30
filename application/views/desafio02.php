@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img src="<?= base_url('imagens/OJantar-Filosofos.png'); ?>">
+					<img src="<?= base_url('imagens/OJantar_Filosofos.png'); ?>">
 				</div>
 			</div>
 			<div class="col-5">
