@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://desafiodosfilosofos22.herokuapp.com/';
+$config['base_url'] = 'https://desafiofilosofos.herokuapp.com/';
 $config['sess_save_path'] = sys_get_temp_dir();
 
 /*
