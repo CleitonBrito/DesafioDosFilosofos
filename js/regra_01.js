@@ -10,7 +10,7 @@
 				"&filo2_pensou="+filo2_pensou+"&filo3_comeu="+filo3_comeu+"&filo3_pensou="+filo3_pensou+
 				"&filo4_comeu="+filo4_comeu+"&filo4_pensou="+filo4_pensou+"&filo5_comeu="+filo5_comeu+
 				"&filo5_pensou="+filo5_pensou+"&acertou="+1;
-				window.location.href = "http://localhost/DesafioFilosofos/Jantar/resultado/1"+resultado;
+				window.location.href = "https://desafiofilosofos.herokuapp.com/Jantar/resultado/1"+resultado;
 		}
 
 	});
