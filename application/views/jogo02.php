@@ -15,7 +15,7 @@
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img class="img-jantar" src="<?= base_url('imagens/Ojantar.png'); ?>">
+					<img class="img-jantar" src="<?= base_url('imagens/ojantar.png'); ?>">
 
 					<img class="img-jantar" id="filo1" style="display: block;" src="<?= base_url('imagens/filo1.png'); ?>">
 					<img class="img-jantar" id="filo2" style="display: block;" src="<?= base_url('imagens/filo2.png'); ?>">
@@ -171,8 +171,8 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="<?= base_url('js/regra_02'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/cronometro_jogo2'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/jogo02'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/regra_02.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/cronometro_jogo2.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/jogo02.js'); ?>"></script>
 </body>
 </html>
