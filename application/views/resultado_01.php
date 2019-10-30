@@ -73,9 +73,9 @@
 				<div class="introducao">
 					<?php
 					if(isset($_GET['acertou']) && $_GET['acertou'] == 1){ ?>
-						<img id="resultado-certo" class="resultado" src="<?= base_url('imagens/resultado_certo'); ?>">
+						<img id="resultado-certo" class="resultado" src="<?= base_url('imagens/resultado_certo.png'); ?>">
 					<?php }else{ ?>
-						<img id="resultado-errado" class="resultado" src="<?= base_url('imagens/resultado_errado'); ?>">
+						<img id="resultado-errado" class="resultado" src="<?= base_url('imagens/resultado_errado.png'); ?>">
 					<?php } ?>
 					<h2>Desafio 1 – Resultado</h2>
 					<div class="row">
