@@ -5,7 +5,7 @@
 			$('#volta-slide').css({display: "flex"});
 			$('#passa-pg').css({display: "flex"});
 			$('#volta-pg').css({display: "none"});
-		}if($('.carousel-item#ultimo').hasClass('active') && $('.carousel-item#ultimo').hasClass('end')){
+		}else if($('.carousel-item#ultimo').hasClass('active') && $('.carousel-item#ultimo').hasClass('end')){
 			$('#passa-slide').css({display: "flex"});
 			$('#volta-slide').css({display: "none"});
 			$('#passa-pg').css({display: "none"});
