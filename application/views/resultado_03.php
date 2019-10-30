@@ -24,45 +24,45 @@
 					<img class="img-jantar" id="filo5" src="<?= base_url('imagens/filo5.png'); ?>">
 
 					<?php if(isset($_GET['filo1_comeu']) && $_GET['filo1_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f1_morreu'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f1'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/f1_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/Comida_f1.png'); ?>">
 					<?php }if(isset($_GET['filo2_comeu']) && $_GET['filo2_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f2_morreu'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f2'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/f2_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/Comida_f2.png'); ?>">
 					<?php }if(isset($_GET['filo3_comeu']) && $_GET['filo3_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f3_morreu'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f3'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/f3_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/Comida_f3.png'); ?>">
 					<?php }if(isset($_GET['filo4_comeu']) && $_GET['filo4_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f4_morreu'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f4'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/f4_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/Comida_f4.png'); ?>">
 					<?php }if(isset($_GET['filo5_comeu']) && $_GET['filo5_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f5_morreu'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f5'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/f5_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/Comida_f5.png'); ?>">
 					<?php }
 						if(isset($_GET['filo1_comeu']) && $_GET['filo1_comeu'] < 6){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f1'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f1.png'); ?>">
 						<?php if(isset($_GET['filo1_morreu']) && $_GET['filo1_morreu'] == 1){ ?>
-							<img class="img-jantar" src="<?= base_url('imagens/f1_morreu'); ?>">
+							<img class="img-jantar" src="<?= base_url('imagens/f1_morreu.png'); ?>">
 						<?php } ?>
 					<?php }if(isset($_GET['filo2_comeu']) && $_GET['filo2_comeu'] < 4){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f2'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f2.png'); ?>">
 						<?php if(isset($_GET['filo2_morreu']) && $_GET['filo2_morreu'] == 1){ ?>
-							<img class="img-jantar" src="<?= base_url('imagens/f2_morreu'); ?>">
+							<img class="img-jantar" src="<?= base_url('imagens/f2_morreu.png'); ?>">
 						<?php } ?>
 					<?php }if(isset($_GET['filo3_comeu']) && $_GET['filo3_comeu'] < 6){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f3'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f3.png'); ?>">
 						<?php if(isset($_GET['filo3_morreu']) && $_GET['filo3_morreu'] == 1){ ?>
-							<img class="img-jantar" src="<?= base_url('imagens/f3_morreu'); ?>">
+							<img class="img-jantar" src="<?= base_url('imagens/f3_morreu.png'); ?>">
 						<?php } ?>
 					<?php }if(isset($_GET['filo4_comeu']) && $_GET['filo4_comeu'] < 6){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f4'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f4.png'); ?>">
 						<?php if(isset($_GET['filo4_morreu']) && $_GET['filo4_morreu'] == 1){ ?>
-							<img class="img-jantar" src="<?= base_url('imagens/f4_morreu'); ?>">
+							<img class="img-jantar" src="<?= base_url('imagens/f4_morreu.png'); ?>">
 						<?php } ?>
 					<?php }if(isset($_GET['filo5_comeu']) && $_GET['filo5_comeu'] < 3){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f5'); ?>">
+						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f5.png'); ?>">
 						<?php if(isset($_GET['filo5_morreu']) && $_GET['filo5_morreu'] == 1){ ?>
-							<img class="img-jantar" src="<?= base_url('imagens/f5_morreu'); ?>">
+							<img class="img-jantar" src="<?= base_url('imagens/f5_morreu.png'); ?>">
 						<?php } ?>
 					<?php } ?>
 
@@ -144,9 +144,9 @@
 				<div class="introducao">
 					<?php
 					if(isset($_GET['acertou']) && $_GET['acertou'] == 1){ ?>
-						<img id="resultado-certo" class="resultado" src="<?= base_url('imagens/resultado_certo'); ?>">
+						<img id="resultado-certo" class="resultado" src="<?= base_url('imagens/resultado_certo.png'); ?>">
 					<?php }else{ ?>
-						<img id="resultado-errado" class="resultado" src="<?= base_url('imagens/resultado_errado'); ?>">
+						<img id="resultado-errado" class="resultado" src="<?= base_url('imagens/resultado_errado.png'); ?>">
 					<?php } ?>
 					<h2>Desafio 3 – Resultado</h2>
 					<div class="row">
