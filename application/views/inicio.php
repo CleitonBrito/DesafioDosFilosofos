@@ -26,6 +26,29 @@
 		</div>
 	</div>
 
+	<!-- Modal aviso -->
+	<div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header justify-content-center">
+	        <h5 class="modal-title" id="TituloModalCentralizado">Desenvolvedores</h5>
+	      </div>
+	      <div class="modal-body text-justify">
+	        O software "Desafio dos Filósofos" foi desenvolvido pelos alunos da Licenciatura em Ciências da Computação, do Instituto Federal de Educação, Ciência e Tecnologia Baiano, campus Senhor do Bonfim–BA, e tem como objetivo abordar os conteúdos de Semáforos e Condições de Corrida, com foco em Starvation e Deadlock.
+	      </div>
+	      <div class="modal-body">
+	        <div class="container-fluid justify-content-center">
+	        	<div class="row">
+	        		<h6>Para uma melhor esperiência, use em Tela Cheia.</h6>
+	        </div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
 	<!-- Modal desenvolvedores -->
 	<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
@@ -103,6 +126,7 @@
 
 		$(document).ready(function() {
 		    $('#ExemploModalCentralizado').modal('show');
+		    $('#ExemploModalCentralizado2').modal('show');
 		})
 
 	</script>
