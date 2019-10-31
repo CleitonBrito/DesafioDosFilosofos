@@ -102,8 +102,10 @@
 		});
 
 		$('.btn-start').click(function(){
-			document.requestFullScreen();
-			document.body.style.zoom = "200%";
+			if (screenfull.enabled) {
+			    screenfull.request();
+			  }
+			// document.body.style.zoom = "200%";
 		});
 
 		$(document).ready(function() {
