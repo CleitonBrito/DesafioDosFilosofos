@@ -100,6 +100,11 @@
 			},
 			500);
 		});
+
+		$(document).ready(function() {
+		    $('#ExemploModalCentralizado').modal('show');
+		})
+
 	</script>
 </body>
 </html>
