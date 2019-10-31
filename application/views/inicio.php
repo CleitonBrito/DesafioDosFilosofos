@@ -14,7 +14,7 @@
 		<h1>Comunicação entre Processos</h1>
 		<h4>O Desafio dos Filósofos</h4>
 		<div class="botao">
-			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button id="botaoComecar" class="btn">Start!</button></a>
+			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button id="botaoComecar" class="btn-start">Start!</button></a>
 		</div>
 	</div>
 
@@ -77,7 +77,7 @@
 	        </div>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn-primary fechar" data-dismiss="modal">Fechar</button>
+	        <button type="button" class="btn btn-primary fechar" data-dismiss="modal">Fechar</button>
 	      </div>
 	    </div>
 	  </div>

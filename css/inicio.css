@@ -18,7 +18,7 @@ html, body {
 	height: 100px!important;
 }
 
-.btn {
+.btn-start {
 	font-size: 3rem!important;
 	color: #fff!important;
 }
@@ -35,7 +35,7 @@ h4 {
 	text-align: center;
 }
 
-button {
+button.btn-start {
 	width: 40%;
 	height: 100%;
 	border-radius: 100px!important;
@@ -44,7 +44,7 @@ button {
 	transition: 1s!important;
 }
 
-button:hover {
+button.btn-start:hover {
 	filter: brightness(70%);
 	box-shadow: 2px 2px 3px #000;
 	border-width: 3px;
