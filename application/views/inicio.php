@@ -5,11 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/inicio.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>" crossorigin="anonymous">
-	<script type="text/javascript" src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
+	<script src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="<?= base_url('js/jquery-1.10.0.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/jquery-3.3.1.slim.min.js'); ?>"></script>
-	<script type="text/javascript" src="<?= base_url('js/popper.min.js'); ?>"></script>
+	<script src="<?= base_url('js/jquery-1.10.0.min.js'); ?>"></script>
+	<script src="<?= base_url('js/jquery-3.3.1.slim.min.js'); ?>"></script>
+	<script src="<?= base_url('js/popper.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundo" class="container">
