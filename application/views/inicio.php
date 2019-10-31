@@ -102,7 +102,7 @@
 		});
 
 		$('.btn-start').click(function(){
-			document.documentElement.requestFullScreen();
+			document.requestFullScreen();
 			document.body.style.zoom = "200%"
 		});
 
