@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id="fundo" class="container">
-		<h1>Comunicação entre Processos</h1>
+		<!-- <h1>Comunicação entre Processos</h1> -->
 		<h4>O Desafio dos Filósofos</h4>
 		<div class="botao">
 			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button id="botaoComecar" class="btn">Start!</button></a>
