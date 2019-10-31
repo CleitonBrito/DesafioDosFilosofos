@@ -102,12 +102,8 @@
 		});
 
 		$('.btn-start').click(function(){
-			var el = document.body
-		    var wscript = new ActiveXObject("WScript.Shell");
-
-		    if (wscript !== null) {
-		      wscript.SendKeys("{F11}");
-		    }
+			document.documentElement.requestFullScreen();
+			document.body.style.zoom = "200%"
 		});
 
 		$(document).ready(function() {
