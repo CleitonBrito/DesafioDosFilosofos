@@ -81,7 +81,6 @@
   </div>
 </div>
 
-
 	<!-- Modal desenvolvedores -->
 	<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
