@@ -55,7 +55,7 @@
       			<a href="<?= base_url(); ?>"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
-				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação – &copy; 2019</a></h6>
+				<h6 class="creditos">&copy; Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação – 2019</a></h6>
 			</div>
 		</div>
 	</div>
