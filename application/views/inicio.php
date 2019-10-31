@@ -103,7 +103,7 @@
 
 		$('.btn-start').click(function(){
 			document.requestFullScreen();
-			document.body.style.zoom = "200%"
+			document.body.style.zoom = "200%";
 		});
 
 		$(document).ready(function() {
