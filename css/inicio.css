@@ -18,6 +18,12 @@ html, body {
 	height: 100px!important;
 }
 
+button:focus {
+ outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
 .btn-start {
 	font-size: 3rem!important;
 	color: #fff!important;
