@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/inicio.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="<?= base_url('js/jquery.min.js'); ?>"></script>
+	<script src="<?= base_url('js/popper.min.js'); ?>"></script>
+	<script src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundo" class="container">
@@ -77,7 +77,7 @@
 	        </div>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary fechar" data-dismiss="modal">Fechar</button>
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
 	      </div>
 	    </div>
 	  </div>
