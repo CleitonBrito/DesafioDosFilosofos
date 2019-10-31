@@ -27,11 +27,11 @@
 	</div>
 
 	<!-- Modal aviso -->
-	<div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+	<div class="modal fade" id="ExemploModalCentralizado2" tabindex="-2" role="dialog" aria-labelledby="TituloModalCentralizado2" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header justify-content-center">
-	        <h5 class="modal-title" id="TituloModalCentralizado">Desenvolvedores</h5>
+	        <h5 class="modal-title" id="TituloModalCentralizado2">Desenvolvedores</h5>
 	      </div>
 	      <div class="modal-body text-justify">
 	        O software "Desafio dos Filósofos" foi desenvolvido pelos alunos da Licenciatura em Ciências da Computação, do Instituto Federal de Educação, Ciência e Tecnologia Baiano, campus Senhor do Bonfim–BA, e tem como objetivo abordar os conteúdos de Semáforos e Condições de Corrida, com foco em Starvation e Deadlock.
