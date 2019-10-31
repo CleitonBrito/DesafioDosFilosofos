@@ -6,6 +6,8 @@
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>" crossorigin="anonymous">
 	<script type="text/javascript" src="<?= base_url('js/jquery-1.10.0.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/jquery-3.3.1.slim.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/popper.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundo" class="container">
@@ -23,7 +25,7 @@
       			<a href="<?= base_url(); ?>"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
-				<h6 class="creditos">Desenvolvido por <a href="#ExemploModalCentralizado">Alunos de Computação</a></h6>
+				<h6 class="creditos">Desenvolvido por <a href="#" data-toggle="modal" data-target="#ExemploModalCentralizado">Alunos de Computação</a></h6>
 			</div>
 		</div>
 	</div>
