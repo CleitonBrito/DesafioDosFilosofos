@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>" crossorigin="anonymous">
 	<script type="text/javascript" src="<?= base_url('js/jquery-1.10.0.min.js'); ?>"></script>
 </head>
-<body onload="exp()">
+<body>
 	<div id="fundo" class="container">
 		<h1>Comunicação entre Processos</h1>
 		<h4>O Desafio dos Filósofos</h4>
@@ -19,7 +19,7 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-				<h6 class="creditos">&copy; Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação – 2019</a></h6>
+				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação – 2019</a></h6>
 			</div>
 		</div>
 	</div>
