@@ -11,8 +11,7 @@
 </head>
 <body>
 	<div id="fundo" class="container">
-		<h1>Comunicação entre Processos</h1>
-		<h4>O Desafio dos Filósofos</h4>
+		<h1>O Desafio dos Filósofos</h1>
 		<div class="botao">
 			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button onclick="telaCheia()" id="botaoComecar" class="btn-start">Start!</button></a>
 		</div>
