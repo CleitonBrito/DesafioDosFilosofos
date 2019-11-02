@@ -15,39 +15,50 @@
 </head>
 <body>
 	<div id="fundo" class="container">
-				<div data-interval="8000" id="carousel" class="carousel slide" data-ride="carousel">
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel" data-slide-to="1"></li>
-				    <li data-target="#carousel" data-slide-to="2"></li>
-				    <li data-target="#carousel" data-slide-to="3"></li>
-				    <li data-target="#carousel" data-slide-to="4"></li>
-				  </ol>
-				  <div class="carousel-inner">
-				    <div id="primeiro" class="carousel-item active">
-				      <img class="d-block w-100" src="<?= base_url('imagens/teste.png'); ?>" alt="Primeiro Slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="<?= base_url('imagens/teste1.gif'); ?>" alt="Segundo Slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="<?= base_url('imagens/teste2.gif'); ?>" alt="Terceiro Slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="<?= base_url('imagens/teste3.gif'); ?>" alt="Quarto Slide">
-				    </div>
-				    <div id="ultimo" class="carousel-item">
-				      <img class="d-block w-100" src="<?= base_url('imagens/teste4.png'); ?>" alt="Quinto Slide">
-				    </div>
-				  </div>
-				<div class="botoes">
-						<div style="display: none;" id="volta-slide" class="col-5 botoes"><a href="#carousel" data-slide="prev"><button class="botao-anterior btn btn-sucess">Anterior</button></a></div>
-						<div style="display: flex;" id="volta-pg" class="col-5 botoes"><a href="<?= base_url(); ?>"><button class="botao-anterior btn btn-sucess">Anterior</button></a></div>
-						<div style="display: flex;" id="passa-slide" class="col-5 botoes"><a href="#carousel" data-slide="next"><button class="botao-proximo btn btn-sucess">Próximo</button></a></div>
-						<div style="display: none;" id="passa-pg" class="col-5 botoes"><a href="<?= base_url('/Jantar/Desafio/1'); ?>"><button class="botao-proximo btn btn-sucess">Próximo</button></a></div>
-					</div>
-				</div>
+		<div data-interval="8000" id="carousel" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel" data-slide-to="1"></li>
+		    <li data-target="#carousel" data-slide-to="2"></li>
+		    <li data-target="#carousel" data-slide-to="3"></li>
+		    <li data-target="#carousel" data-slide-to="4"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div id="primeiro" class="carousel-item active">
+		      <img class="d-block w-100" src="<?= base_url('imagens/teste.png'); ?>" alt="Primeiro Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="<?= base_url('imagens/teste1.gif'); ?>" alt="Segundo Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="<?= base_url('imagens/teste2.gif'); ?>" alt="Terceiro Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="<?= base_url('imagens/teste3.gif'); ?>" alt="Quarto Slide">
+		    </div>
+		    <div id="ultimo" class="carousel-item">
+		      <img class="d-block w-100" src="<?= base_url('imagens/teste4.png'); ?>" alt="Quinto Slide">
+		    </div>
+		  </div>
+		<div class="botoes">
+				<div style="display: none;" id="volta-slide" class="col-5 botoes"><a href="#carousel" data-slide="prev"><button class="botao-anterior btn btn-sucess">Anterior</button></a></div>
+				<div style="display: flex;" id="volta-pg" class="col-5 botoes"><a href="<?= base_url(); ?>"><button class="botao-anterior btn btn-sucess">Anterior</button></a></div>
+				<div style="display: flex;" id="passa-slide" class="col-5 botoes"><a href="#carousel" data-slide="next"><button class="botao-proximo btn btn-sucess">Próximo</button></a></div>
+				<div style="display: none;" id="passa-pg" class="col-5 botoes"><a href="<?= base_url('/Jantar/Desafio/1'); ?>"><button class="botao-proximo btn btn-sucess">Próximo</button></a></div>
+			</div>
+		</div>
 	</div>
+	<div class="footer">
+		<div class="row">
+			<div class="col">
+      			<a href=""><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
+			</div>
+			<div class="col">
+				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
+			</div>
+		</div>
+	</div>
+
 	<script src="<?= base_url('js/carrossel.js'); ?>"></script>
 </body>
 </html>

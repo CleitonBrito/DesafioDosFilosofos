@@ -1,4 +1,4 @@
-body {
+ body {
 	background-color: #fff!important;
 }
 
@@ -76,7 +76,7 @@ img {
 	text-align: right;
 }
 
-.icon_home, .seta {
+.seta {
 	border-radius: 50%;
 	width: 5%;
 }
@@ -88,7 +88,7 @@ img {
 	height: 70%!important;
 }
 
-.icon-email:hover, .icon-github:hover, .icon_home:hover, .seta:hover {
+.icon-email:hover, .icon-github:hover, .seta:hover {
 	box-shadow: 1px 1px 5px black;
 }
 
