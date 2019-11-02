@@ -195,6 +195,15 @@ p {
 	text-indent: 10%;
 }
 
+a.alunos {
+	color: #007bff!important;
+}
+
+a.alunos:hover {
+	color: #0056b3!important;
+	text-decoration: underline;
+}
+
 .imags{
 	display: flex;
 	justify-content: center;
