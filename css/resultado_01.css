@@ -195,11 +195,11 @@ p {
 	text-indent: 10%;
 }
 
-a.alunos {
+a.link {
 	color: #007bff!important;
 }
 
-a.alunos:hover {
+a.link:hover {
 	color: #0056b3!important;
 	text-decoration: underline!important;
 	cursor: pointer!important;
