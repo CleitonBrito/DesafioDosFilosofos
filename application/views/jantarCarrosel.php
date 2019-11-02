@@ -52,7 +52,8 @@
 		<div class="row">
 			<div class="col">
       			<a href="<?= base_url(); ?>"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-			</div>
+      			<a href="<?= base_url('Jantar/Desafio/1'); ?>"><img class="seta" src="<?= base_url('imagens/seta_adiante.png'); ?>"></a>
+			</div
 			<div class="col">
 				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
 			</div>

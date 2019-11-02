@@ -52,6 +52,12 @@ h6 {
 	height: 100px!important;
 }
 
+button.fechar {
+	width: 100%;
+	border-radius: 100px;
+	font-family: 'Arial Rounded MT'!important;
+}
+
 .btn {
 	font-size: 1rem!important;
 	color: #fff!important;

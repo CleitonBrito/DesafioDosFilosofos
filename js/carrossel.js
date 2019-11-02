@@ -11,7 +11,6 @@ $('#carousel').on('slid.bs.carousel', function () {
 			$('#volta-slide').css({display: "none"});
 			$('#passa-pg').css({display: "none"});
 			$('#volta-pg').css({display: "flex"});
-			console.log('A');
 		}
 
 		if($('.carousel-item#ultimo').hasClass('active')){
@@ -19,7 +18,6 @@ $('#carousel').on('slid.bs.carousel', function () {
 			$('#volta-slide').css({display: "flex"});
 			$('#passa-pg').css({display: "flex"});
 			$('#volta-pg').css({display: "none"});
-			console.log('A');
 		}
 
 	});

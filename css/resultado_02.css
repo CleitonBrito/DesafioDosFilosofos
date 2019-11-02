@@ -81,7 +81,6 @@ h6 {
 	background-color: #003e2d!important;
 }
 
-
 .alert {
 	border-color : none!important;
 	transition: 0.2s!important;
@@ -101,6 +100,12 @@ h6 {
 .btn:hover {
 	box-shadow: 1px 1px 0px black;
 	filter: brightness(70%);
+}
+
+button.fechar {
+	width: 100%;
+	border-radius: 100px;
+	font-family: 'Arial Rounded MT'!important;
 }
 
 div.botao {
@@ -217,7 +222,6 @@ p {
 	width: 100%;
 	display: grid;
 }
-
 
 img {
 	top: 0%;
