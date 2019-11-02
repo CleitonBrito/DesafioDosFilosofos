@@ -51,11 +51,11 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a href="<?= base_url(); ?>"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-      			<a href="<?= base_url('Jantar/Desafio/1'); ?>"><img class="seta" src="<?= base_url('imagens/seta_adiante.png'); ?>"></a>
-			</div
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="adiante();"><img class="seta" src="<?= base_url('imagens/seta_adiante.png'); ?>"></a>
+			</div>
 			<div class="col">
-				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
+				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
 			</div>
 		</div>
 	</div>
@@ -118,5 +118,14 @@
 	</div>
 
 	<script src="<?= base_url('js/carrossel.js'); ?>"></script>
+	<script>
+		function voltar(){
+			window.location.href = "<?= base_url(); ?>";
+		}
+
+		function adiante(){
+			window.location.href = "<?= base_url('Jantar/Desafio/1'); ?>";
+		}
+	</script>
 </body>
 </html>
