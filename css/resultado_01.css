@@ -222,3 +222,37 @@ img.resultado {
 img.img-jantar{
 	position: absolute;
 }
+
+.footer {
+	width: 100%;
+	float: right;
+	padding-right: 100px;
+	padding-left: 80px;
+	margin: 0px!important;
+}
+
+.creditos {
+	font-size: 15px;
+	text-align: right;
+}
+
+.icon_home, .seta {
+	border-radius: 50%;
+	width: 5%;
+}
+
+.icon-email, .icon-github {
+	margin-top: 10px;
+	border-radius: 50%!important;
+	width: 20%;
+	height: 70%!important;
+}
+
+.icon-email:hover, .icon-github:hover, .icon_home:hover, .seta:hover {
+	box-shadow: 1px 1px 5px black;
+}
+
+.dev01, .dev02, .dev03 {
+	width: 100%;
+	border-radius: 50%;
+}
