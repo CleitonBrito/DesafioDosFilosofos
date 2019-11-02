@@ -61,6 +61,7 @@ button.btn-start:hover {
 	box-shadow: 2px 2px 3px #000;
 	border-width: 3px;
 	border-color: #000!important;
+	cursor: pointer;
 }
 
 .container {
