@@ -14,7 +14,7 @@
 		<h1>Comunicação entre Processos</h1>
 		<h4>O Desafio dos Filósofos</h4>
 		<div class="botao">
-			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button id="botaoComecar" class="btn-start">Start!</button></a>
+			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button onclick="telaCheia()" id="botaoComecar" class="btn-start">Start!</button></a>
 		</div>
 	</div>
 
@@ -83,6 +83,24 @@
 	  </div>
 	</div>
 
+	<!-- Modal tela Cheia -->
+	<div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header justify-content-center">
+	        <h5 class="modal-title" id="TituloModalCentralizado2">Tela Cheia</h5>
+	      </div>
+	      <div class="modal-body text-justify">
+	        Para uma melhor experiência do usuário, recomenda-se utilizar em tela cheia.
+	        Pressione a tecla <b>F11</b> em seu teclado.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
 	<script type="text/javascript">
 		$(function(){
 			var cores = ['#FFA500','#8B0000', '#228B22','#20B2AA','#003280'];
@@ -101,24 +119,15 @@
 			500);
 		});
 
-		$('.btn-start').click(function(){
-			  var doc = window.document;
-			  var docEl = doc.documentElement;
-
-			  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
-			  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
-
-			  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
-			    requestFullScreen.call(docEl);
-			  }
-			  else {
-			    cancelFullScreen.call(doc);
-			  }
-		});
-
 		$(document).ready(function() {
 		    $('#ExemploModalCentralizado').modal('show');
-		})
+		});
+
+		$('#ExemploModalCentralizado').on('click', function(){
+			console.log("A");
+			$('#ExemploModalCentralizado').modal('hide');
+			$('#ExemploModalCentralizado2').modal('show');
+		});
 
 	</script>
 </body>
