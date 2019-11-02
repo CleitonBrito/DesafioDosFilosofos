@@ -4,8 +4,10 @@
 	<title>Desafio 1</title>
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/desafio01.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>">
+	<script src="<?= base_url('js/jquery.min.js'); ?>"></script>
+	<script src="<?= base_url('js/popper.min.js'); ?>"></script>
+	<script src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundo" class="container">
