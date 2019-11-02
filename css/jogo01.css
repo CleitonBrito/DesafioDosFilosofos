@@ -252,6 +252,16 @@ p {
 	text-indent: 10%;
 }
 
+a.link {
+	color: #007bff!important;
+}
+
+a.link:hover {
+	color: #0056b3!important;
+	text-decoration: underline!important;
+	cursor: pointer!important;
+}
+
 .btn {
 	outline: 0px!important;
 	border: none!important;

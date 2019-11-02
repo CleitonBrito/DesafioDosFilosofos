@@ -165,11 +165,11 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a href="<?= base_url('Jantar/Desafio/2'); ?>"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-      			<a href="<?= base_url(); ?>"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
-				<h6 class="creditos">Desenvolvido por <a href="#" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
+				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
 			</div>
 		</div>
 	</div>
@@ -230,5 +230,14 @@
 	    </div>
 	  </div>
 	</div>
+	<script>
+		function home(){
+			window.location.href = "<?= base_url(); ?>";
+		}
+
+		function voltar(){
+			window.location.href = "<?= base_url('Jantar/Desafio/2'); ?>";
+		}
+	</script>
 </body>
 </html>
