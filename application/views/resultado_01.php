@@ -148,8 +148,8 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-      			<a onclick="home();"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
 				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
