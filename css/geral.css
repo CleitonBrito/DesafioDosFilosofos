@@ -1,0 +1,25 @@
+html {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	width: 90%!important;
+	height: 100vh!important;
+	margin: auto!important;
+    overflow: hidden;
+}
+
+body {
+    height: 90%;
+}
+
+.container#fundo {
+	background-image: url('../imagens/Banner.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+	width: 100%!important;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+}

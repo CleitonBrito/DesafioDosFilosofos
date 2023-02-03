@@ -177,7 +177,7 @@
 				"&filo2_pensou="+filo2_pensou+"&filo3_comeu="+filo3_comeu+"&filo3_pensou="+filo3_pensou+
 				"&filo4_comeu="+filo4_comeu+"&filo4_pensou="+filo4_pensou+"&filo5_comeu="+filo5_comeu+
 				"&filo5_pensou="+filo5_pensou;
-				window.location.href = "https://desafiofilosofos.herokuapp.com/Jantar/resultado/2"+resultado;
+                window.location.href = base_link() +"Jantar/resultado/2"+resultado;
 			}
 		}
 	}
@@ -390,7 +390,6 @@
 	});
 
 	$('label#f1-pensando').on('click', function(){
-		console.log(garfo1_obj.getFilosofo());
 		acao(1,2);
 		contabiliza(1,2);
 		$('label#f1-comendo').removeClass('desabilita-click');

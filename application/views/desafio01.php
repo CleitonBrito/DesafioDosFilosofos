@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Desafio 1</title>
+	<link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/desafio01.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>">

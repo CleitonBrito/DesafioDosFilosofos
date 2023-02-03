@@ -2,13 +2,10 @@ body {
 	background-color: #fff!important;
 }
 
-html, body {
-	position: relative;
-	top: 3%;
-	width: 96%!important;
-	height: 96%!important;
-	margin: auto!important;
-	vertical-align: middle!important;
+.container#fundo {
+	width: 100%;
+	background-image: url('../imagens/Banner.png');
+    height: 100%;
 }
 
 h6 {
@@ -29,7 +26,12 @@ h6 {
 .container#fundo {
 	background-image: url('../imagens/Banner.png');
 	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 	width: 100%!important;
+	height: 90vh;
+	display: flex;
+	align-items: center;
 }
 
 .row {

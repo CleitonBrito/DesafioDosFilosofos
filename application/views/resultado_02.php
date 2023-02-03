@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Desafio 2 - Resultado</title>
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/resultado_02.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

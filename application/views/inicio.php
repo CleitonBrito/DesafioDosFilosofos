@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Desafio dos Filósofos</title>
+	<link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/inicio.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>">
@@ -10,7 +11,7 @@
 	<script src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
-	<div id="fundo" class="container">
+	<div id="fundoI" class="container">
 		<h1>O Desafio dos Filósofos</h1>
 		<div class="botao">
 			<a href="<?= base_url('Inicio/Jantar/'); ?>"><button onclick="telaCheia()" id="botaoComecar" class="btn-start">Start!</button></a>

@@ -2,15 +2,9 @@
 	background-color: #fff!important;
 }
 
-html, body {
-	position: relative;
-	top: 3%;
-	width: 96%!important;
-	height: 96%!important;
-	margin: auto!important;
-	vertical-align: middle!important;
+.container#fundo {
+    height: 80vh!important;
 }
-
 
 button {
 	width: 100%;
@@ -51,15 +45,6 @@ a.link:hover {
 
 .carousel-indicators .active{
 	background-color:  #000!important;
-}
-
-.container#fundo {
-	background-image: url('../imagens/Banner.png');
-	background-repeat: no-repeat;
-	width: 100%!important;
-	height: 100%;
-	display: flex;
-	align-items: center;
 }
 
 .container {

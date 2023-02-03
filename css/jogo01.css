@@ -2,13 +2,10 @@ body {
 	background-color: #fff!important;
 }
 
-html, body {
-	position: relative;
-	top: 3%;
-	width: 96%!important;
-	height: 96%!important;
-	margin: auto!important;
-	vertical-align: middle!important;
+.container#fundo {
+	width: 100%;
+	background-image: url('../imagens/Banner.png');
+    height: 100%;
 }
 
 h6 {
@@ -32,12 +29,6 @@ h6 {
     font-family: 'Orbitron', sans-serif;
     color: #363431;
     float: left;
-}
-
-.container#fundo {
-	background-image: url('/imagens/Banner.png');
-	background-repeat: no-repeat;
-	width: 100%!important;
 }
 
 .row {

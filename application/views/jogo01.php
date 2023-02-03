@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Desafio 1</title>
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/jogo01.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -235,7 +236,10 @@
 	    </div>
 	  </div>
 	</div>
-	<script type="text/javascript" src="<?= base_url('js/regra_01.js'); ?>"></script>
+	<script id="link"
+        type="text/javascript" src="<?= base_url('js/regra_01.js'); ?>"
+        baselink="<?= base_url() ?>"
+    ></script>
 	<script type="text/javascript" src="<?= base_url('js/cronometro_jogo1.js'); ?>"></script>
 	<script type="text/javascript" src="<?= base_url('js/jogo01.js'); ?>"></script>
 	<script>

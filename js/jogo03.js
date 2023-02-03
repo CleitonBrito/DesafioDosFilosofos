@@ -179,7 +179,7 @@
 				"&filo2_pensou="+filo2_pensou+"&filo3_comeu="+filo3_comeu+"&filo3_pensou="+filo3_pensou+
 				"&filo4_comeu="+filo4_comeu+"&filo4_pensou="+filo4_pensou+"&filo5_comeu="+filo5_comeu+
 				"&filo5_pensou="+filo5_pensou+"&dead="+1;
-				window.location.href = "https://desafiofilosofos.herokuapp.com/Jantar/resultado/3"+resultado;
+                window.location.href = base_link() +"Jantar/resultado/3"+resultado;
 			}
 		}
 	}
@@ -219,7 +219,7 @@
 
 		
 		if(count > 0){
-			window.location.href = "https://desafiofilosofos.herokuapp.com/Jantar/resultado/3"+resultado+"limite=1";
+			window.location.href = base_link()+"Jantar/resultado/3"+resultado+"limite=1";
 		}
 
 	}

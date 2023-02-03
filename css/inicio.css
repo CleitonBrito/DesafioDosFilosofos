@@ -2,15 +2,6 @@ body {
 	background-color: #fffee5!important;
 }
 
-html, body {
-	position: relative;
-	top: 10%;
-	width: 90%!important;
-	height: 90%!important;
-	margin: auto!important;
-	vertical-align: middle!important;
-}
-
 .botao {
 	position: relative;
 	top: 30%;
@@ -74,9 +65,11 @@ button.btn-start:hover {
 	margin: auto!important;
 }
 
-.container#fundo {
+.container#fundoI {
 	width: 100%;
-	background-image: url('/imagens/banner_inicial.png');
+	background-image: url('../imagens/banner_inicial.png');
+    background-size: cover;
+    background-position: left;
 	background-repeat: no-repeat;
 	padding: 0px!important;
 }

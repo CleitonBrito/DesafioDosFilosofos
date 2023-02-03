@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Desafio 3</title>
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('css/desafio01.css'); ?>">
 	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css'); ?>">
@@ -17,7 +18,7 @@
 					<img src="<?= base_url('imagens/ojantar_filosofos.png'); ?>">
 				</div>
 			</div>
-			<div class="col-5">
+			<div id="texto-3" class="col-5">
 				<div class="introducao">
 					<h2>Desafio 3</h2>
 					<p style="margin-top: 8%; line-height: 1.2;">Faça os Filósofos 1, 3 e 4 comerem exatamente 6 vezes; e pensarem pelo menos 5 vezes.</p>
