@@ -6,4 +6,4 @@ https://desafiofilosofos.myproj.top
 !['printscreen da tela inical do projeto Desafio dos filósofos'][def]
 
 
-[def]: imagens/exemploJogo.png
+[def]: public/imagens/exemploJogo.png
