@@ -1,0 +1,276 @@
+body {
+	background-color: #fff!important;
+}
+
+.container#fundo {
+	width: 100%;
+	background-image: url('../imagens/Banner.png');
+    height: 100%;
+}
+
+h6 {
+	margin-bottom: 0px!important;
+	margin-left: 10px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}
+
+.container#fundo {
+	background-image: url('../imagens/Banner.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+	width: 100%!important;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+}
+
+.row {
+	position: relative;
+	height: 100%!important;
+}
+
+.introducao {
+	width: 80%!important;
+	padding-top: 5%!important;
+	padding-left: 5%!important;
+	padding-right: 5%!important;
+	padding-bottom: 2%!important;
+	background-color: #eee!important;
+	border-radius: 15px;
+	position: relative!important;
+	margin: auto;
+	font-size: 150%!important;
+	box-shadow: 1px 2px 2px 2px #757575;
+}
+
+.informacoes {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 70%;
+}
+
+#info {
+	width: 80%;
+	height: 100%;
+}
+
+.alert {
+	border-color : none!important;
+	transition: 0.2s!important;
+	color: #fff!important;
+	background-color: #2a6d4a!important;
+}
+
+.alert:hover {
+	box-shadow: 1px 1px 5px black!important;
+}
+
+.btn {
+	margin: 5px;
+	font-size: 1rem!important;
+}
+
+.btn:hover {
+	box-shadow: 1px 1px 0px black;
+	filter: brightness(70%);
+}
+
+button.fechar {
+	width: 100%;
+	border-radius: 100px;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+div.botao {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-group>.btn:hover {
+	z-index: 0!important;
+	width: 60%;
+	transition: 0.1s;
+}
+
+.col-4 {
+	display: flex;
+	justify-content: center;
+	padding: 0px!important;
+	align-items: center;
+}
+
+.col-4.comeu {
+	margin-top: 10px;
+	color: #fff!important;
+	background-color: #039a06!important;
+	border-radius: 5px;
+}
+
+.col-4.pensou {
+	margin-top: 10px;
+	color: #fff!important;
+	background-color: #2160e6!important;
+	border-radius: 5px;
+}
+
+
+.col-3, .col-9 {
+	height: 100%
+	padding: 0px!important;
+}
+
+.col-8 {
+	display: grid;
+	align-items: center;
+}
+
+.col-9 {
+	display: inline-grid!important;
+	align-items: center!important;
+	justify-content: center!important;
+}
+
+.col-5 {
+	display: grid;
+	vertical-align: middle;
+}
+
+.col-7 {
+	display: flex;
+	align-items: center!important;
+	margin: auto!important;
+}
+
+.col-12 {
+	height: 90%;
+	display: -webkit-box;
+}
+
+.col-5, .col-7 {
+	height: 100%!important;
+	position: relative;
+	vertical-align: middle!important;
+}
+
+.jantar {
+	display: block;
+	text-align: center!important;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	width: 50%;
+	height: 5%;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	margin-top: 2%!important;
+	text-align: center;
+	font-size: 1.5rem!important;
+	background-color: #fff;
+}
+
+h2 {
+	width: 100%;
+	font-size: 100%!important;
+	position: relative;
+	text-align: center;
+	font-weight: bold!important;
+}
+
+p {
+	text-align: justify;
+	text-indent: 10%;
+}
+
+a.link {
+	color: #007bff!important;
+}
+
+a.link:hover {
+	color: #0056b3!important;
+	text-decoration: underline!important;
+	cursor: pointer!important;
+}
+
+.imags{
+	display: flex;
+	justify-content: center;
+	width: 100%!important;
+}
+
+.img-filosofos {
+	width: 100%;
+	display: grid;
+}
+
+
+img {
+	top: 0%;
+	border-radius: 50px;
+	width: 60%;
+}
+
+img#img-coracao {
+	width: 20%;
+}
+
+
+img.resultado {
+	position: absolute;
+	top: -8%;
+	left: 85%;
+	width: 20%;
+}
+
+img.img-jantar{
+	position: absolute;
+}
+
+.footer {
+	width: 100%;
+	float: right;
+	padding-right: 100px;
+	padding-left: 80px;
+	margin: 0px!important;
+}
+
+.creditos {
+	font-size: 15px;
+	text-align: right;
+}
+
+.icon_home, .seta {
+	border-radius: 50%;
+	width: 5%;
+}
+
+.icon-email, .icon-github {
+	margin-top: 10px;
+	border-radius: 50%!important;
+	width: 20%;
+	height: 70%!important;
+}
+
+.icon-email:hover, .icon-github:hover, .icon_home:hover, .seta:hover {
+	box-shadow: 1px 1px 5px black;
+}
+
+.dev01, .dev02, .dev03 {
+	width: 100%;
+	border-radius: 50%;
+}

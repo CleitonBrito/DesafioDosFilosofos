@@ -1,0 +1,187 @@
+body {
+	background-color: #fff!important;
+}
+
+#texto-3 {
+    font-size: 12px;
+}
+
+.container#fundo {
+	background-image: url('../imagens/Banner.png');
+}
+
+.row {
+	position: relative;
+	height: 100%!important;
+}
+
+.botao {
+	position: relative;
+	top: 30%;
+	text-align: center!important;
+	height: 100px!important;
+}
+
+.btn {
+	font-size: 1rem!important;
+	color: #fff!important;
+}
+
+.introducao {
+	width: 90%!important;
+	padding-top: 5%!important;
+	padding-left: 5%!important;
+	padding-right: 5%!important;
+	padding-bottom: 2%!important;
+	background-color: #eee!important;
+	border-radius: 15px;
+	position: relative!important;
+	margin: auto;
+	font-size: 150%!important;
+	box-shadow: 1px 2px 2px 2px #757575;
+}
+
+.col-5 {
+	display: flex;
+	vertical-align: middle;
+}
+
+.col-7 {
+	margin: auto!important;
+}
+
+.col-5, .col-7 {
+	height: 100%!important;
+	position: relative;
+	vertical-align: middle!important;
+}
+
+.jantar {
+	text-align: center!important;
+	width: 100%;
+	height: 100%;
+}
+
+.imags{
+	position: relative;
+}
+
+img {
+	top: 0%;
+	border-radius: 50px;
+	width: 85%;
+}
+
+h1 {
+	width: 50%;
+	height: 5%;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	margin-top: 2%!important;
+	text-align: center;
+	font-size: 1.5rem!important;
+	background-color: #fff;
+}
+
+h2 {
+	width: 100%;
+	font-size: 100%!important;
+	position: relative;
+	text-align: center;
+	font-weight: bold!important;
+}
+
+p {
+	text-align: justify;
+	text-indent: 10%;
+}
+
+a.link {
+	color: #007bff!important;
+}
+
+a.link:hover {
+	color: #0056b3!important;
+	text-decoration: underline!important;
+	cursor: pointer!important;
+}
+
+.btn {
+	outline: 0px!important;
+	border: none!important;
+	white-space: normal!important;
+}
+
+.btn:focus {
+	outline: 0px!important;
+	box-shadow: none!important;
+}
+
+button {
+	width: 30%;
+	height: 10%;
+	border-radius: 100px!important;
+	background-color: #d52f28;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+button:hover {
+	box-shadow: 2px 2px 3px #000;
+	border-width: 3px;
+	border-color: #000!important;
+}
+
+button:focus {
+	outline: 0px!important;
+}
+
+button.fechar {
+	width: 100%;
+	border-radius: 100px;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}
+
+.footer {
+	width: 100%;
+	float: right;
+	padding-right: 100px;
+	padding-left: 80px;
+	margin: 0px!important;
+}
+
+.creditos {
+	font-size: 15px;
+	text-align: right;
+}
+
+.icon_home, .seta {
+	border-radius: 50%;
+	width: 5%;
+}
+
+.icon-email, .icon-github {
+	margin-top: 10px;
+	border-radius: 50%!important;
+	width: 20%;
+	height: 70%!important;
+}
+
+.icon-email:hover, .icon-github:hover, .icon_home:hover, .seta:hover {
+	box-shadow: 1px 1px 5px black;
+}
+
+.dev01, .dev02, .dev03 {
+	width: 100%;
+	border-radius: 50%;
+}

@@ -1,0 +1,92 @@
+ body {
+	background-color: #fff!important;
+}
+
+.container#fundo {
+    height: 80vh!important;
+}
+
+button {
+	width: 100%;
+	height: 100%;
+	border-radius: 100px!important;
+	color: #fff!important;
+	background-color: #18aa00;
+	font-family: 'Arial Rounded MT'!important;
+}
+
+img {
+	height: 100%!important;
+}
+
+a.link {
+	color: #007bff!important;
+}
+
+a.link:hover {
+	color: #0056b3!important;
+	text-decoration: underline!important;
+	cursor: pointer!important;
+}
+
+.botoes {
+	display: flex;
+	justify-content: center!important;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	width: 10px!important;
+	height: 10px!important;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fff!important;
+}
+
+.carousel-indicators .active{
+	background-color:  #000!important;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 50px;
+	vertical-align: middle!important;
+	margin: auto!important;
+}
+
+.footer {
+	width: 100%;
+	float: right;
+	padding-right: 100px;
+	padding-left: 80px;
+	margin: 0px!important;
+}
+
+.creditos {
+	font-size: 15px;
+	text-align: right;
+}
+
+.seta {
+	border-radius: 50%;
+	width: 5%;
+}
+
+.icon-email, .icon-github {
+	margin-top: 10px;
+	border-radius: 50%!important;
+	width: 20%;
+	height: 70%!important;
+}
+
+.icon-email:hover, .icon-github:hover, .seta:hover {
+	box-shadow: 1px 1px 5px black;
+}
+
+.dev01, .dev02, .dev03 {
+	width: 100%;
+	border-radius: 50%;
+}

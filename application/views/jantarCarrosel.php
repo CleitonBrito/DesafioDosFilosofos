@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Desafio dos Filósofos</title>
-	<link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?= base_url('css/carrossel.css'); ?>">
-	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/geral.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/carrossel.css'); ?>">
+	<link rel="icon" href="<?= base_url('public/imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -26,19 +26,19 @@
 		  </ol>
 		  <div class="carousel-inner">
 		    <div id="primeiro" class="carousel-item active">
-		      <img class="d-block w-100" src="<?= base_url('imagens/teste.png'); ?>" alt="Primeiro Slide">
+		      <img class="d-block w-100" src="<?= base_url('public/imagens/teste.png'); ?>" alt="Primeiro Slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="<?= base_url('imagens/teste1.gif'); ?>" alt="Segundo Slide">
+		      <img class="d-block w-100" src="<?= base_url('public/imagens/teste1.gif'); ?>" alt="Segundo Slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="<?= base_url('imagens/teste2.gif'); ?>" alt="Terceiro Slide">
+		      <img class="d-block w-100" src="<?= base_url('public/imagens/teste2.gif'); ?>" alt="Terceiro Slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="<?= base_url('imagens/teste3.gif'); ?>" alt="Quarto Slide">
+		      <img class="d-block w-100" src="<?= base_url('public/imagens/teste3.gif'); ?>" alt="Quarto Slide">
 		    </div>
 		    <div id="ultimo" class="carousel-item">
-		      <img class="d-block w-100" src="<?= base_url('imagens/teste4.png'); ?>" alt="Quinto Slide">
+		      <img class="d-block w-100" src="<?= base_url('public/imagens/teste4.png'); ?>" alt="Quinto Slide">
 		    </div>
 		  </div>
 		<div class="botoes">
@@ -52,8 +52,8 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-      			<a class="link" onclick="adiante();"><img class="seta" src="<?= base_url('imagens/seta_adiante.png'); ?>"></a>
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('public/imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="adiante();"><img class="seta" src="<?= base_url('public/imagens/seta_adiante.png'); ?>"></a>
 			</div>
 			<div class="col">
 				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
@@ -86,27 +86,27 @@
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<img class="dev01" src="<?= base_url('imagens/desenvolvedor01.jpg'); ?>">
+	        			<img class="dev01" src="<?= base_url('public/imagens/desenvolvedor01.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev02" src="<?= base_url('imagens/desenvolvedor02.jpg'); ?>">
+	        			<img class="dev02" src="<?= base_url('public/imagens/desenvolvedor02.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev03" src="<?= base_url('imagens/desenvolvedor03.jpg'); ?>">
+	        			<img class="dev03" src="<?= base_url('public/imagens/desenvolvedor03.jpg'); ?>">
 	        		</div>
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        	</div>
 	        </div>
@@ -118,7 +118,7 @@
 	  </div>
 	</div>
 
-	<script src="<?= base_url('js/carrossel.js'); ?>"></script>
+	<script src="<?= base_url('public/js/carrossel.js'); ?>"></script>
 	<script>
 		function voltar(){
 			window.location.href = "<?= base_url(); ?>";

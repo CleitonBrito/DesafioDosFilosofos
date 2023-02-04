@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Desafio 2 - Resultado</title>
-    <link rel="stylesheet" type="text/css" href="<?= base_url('css/geral.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?= base_url('css/resultado_02.css'); ?>">
-	<link rel="icon" href="<?= base_url('imagens/Deadlock-Jantar.png'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('public/css/geral.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/resultado_02.css'); ?>">
+	<link rel="icon" href="<?= base_url('public/imagens/Deadlock-Jantar.png'); ?>">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -16,39 +16,39 @@
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img class="img-jantar" src="<?= base_url('imagens/Mesa_garfos.png'); ?>">
+					<img class="img-jantar" src="<?= base_url('public/imagens/Mesa_garfos.png'); ?>">
 
-					<img class="img-jantar" id="filo1" src="<?= base_url('imagens/filo1.png'); ?>">
-					<img class="img-jantar" id="filo2" src="<?= base_url('imagens/filo2.png'); ?>">
-					<img class="img-jantar" id="filo3" src="<?= base_url('imagens/filo3.png'); ?>">
-					<img class="img-jantar" id="filo4" src="<?= base_url('imagens/filo4.png'); ?>">
-					<img class="img-jantar" id="filo5" src="<?= base_url('imagens/filo5.png'); ?>">
+					<img class="img-jantar" id="filo1" src="<?= base_url('public/imagens/filo1.png'); ?>">
+					<img class="img-jantar" id="filo2" src="<?= base_url('public/imagens/filo2.png'); ?>">
+					<img class="img-jantar" id="filo3" src="<?= base_url('public/imagens/filo3.png'); ?>">
+					<img class="img-jantar" id="filo4" src="<?= base_url('public/imagens/filo4.png'); ?>">
+					<img class="img-jantar" id="filo5" src="<?= base_url('public/imagens/filo5.png'); ?>">
 
 					<?php if(isset($_GET['filo1_comeu']) && $_GET['filo1_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f1_morreu.png'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f1.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/f1_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/Comida_f1.png'); ?>">
 					<?php }if(isset($_GET['filo2_comeu']) && $_GET['filo2_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f2_morreu.png'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f2.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/f2_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/Comida_f2.png'); ?>">
 					<?php }if(isset($_GET['filo3_comeu']) && $_GET['filo3_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f3_morreu.png'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f3.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/f3_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/Comida_f3.png'); ?>">
 					<?php }if(isset($_GET['filo4_comeu']) && $_GET['filo4_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f4_morreu.png'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f4.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/f4_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/Comida_f4.png'); ?>">
 					<?php }if(isset($_GET['filo5_comeu']) && $_GET['filo5_comeu'] == 0){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/f5_morreu.png'); ?>">
-						<img class="img-jantar" src="<?= base_url('imagens/Comida_f5.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/f5_morreu.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/Comida_f5.png'); ?>">
 					<?php }if(isset($_GET['filo1_comeu']) && $_GET['filo1_comeu'] < 5){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f1.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/comeu_pouco_f1.png'); ?>">
 					<?php }if(isset($_GET['filo2_comeu']) && $_GET['filo2_comeu'] < 3){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f2.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/comeu_pouco_f2.png'); ?>">
 					<?php }if(isset($_GET['filo3_comeu']) && $_GET['filo3_comeu'] < 5){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f3.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/comeu_pouco_f3.png'); ?>">
 					<?php }if(isset($_GET['filo4_comeu']) && $_GET['filo4_comeu'] < 3){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f4.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/comeu_pouco_f4.png'); ?>">
 					<?php }if(isset($_GET['filo5_comeu']) && $_GET['filo5_comeu'] < 5){ ?>
-						<img class="img-jantar" src="<?= base_url('imagens/comeu_pouco_f5.png'); ?>">
+						<img class="img-jantar" src="<?= base_url('public/imagens/comeu_pouco_f5.png'); ?>">
 					<?php } ?>
 
 				</div>
@@ -91,15 +91,15 @@
 				<div class="introducao">
 					<?php
 					if(isset($_GET['acertou']) && $_GET['acertou'] == 1){ ?>
-						<img id="resultado-certo" class="resultado" src="<?= base_url('imagens/resultado_certo.png'); ?>">
+						<img id="resultado-certo" class="resultado" src="<?= base_url('public/imagens/resultado_certo.png'); ?>">
 					<?php }else{ ?>
-						<img id="resultado-errado" class="resultado" src="<?= base_url('imagens/resultado_errado.png'); ?>">
+						<img id="resultado-errado" class="resultado" src="<?= base_url('public/imagens/resultado_errado.png'); ?>">
 					<?php } ?>
 					<h2>Desafio 2 – Resultado</h2>
 					<div class="row">
 						<div class="col-12">
 							<div class="col-3">
-								<img class="img-filosofos" src="<?= base_url('imagens/Filosofo1.png'); ?>">
+								<img class="img-filosofos" src="<?= base_url('public/imagens/Filosofo1.png'); ?>">
 							</div>
 							<div class="col-4 comeu">
 								<h6 id="f1-comeu">Comeu<br><?php if(isset($_GET['filo1_comeu'])) echo $_GET['filo1_comeu']; ?> de 5</h6>
@@ -110,7 +110,7 @@
 						</div>
 						<div class="col-12">
 							<div class="col-3">
-								<img class="img-filosofos" src="<?= base_url('imagens/Filosofo2.png'); ?>">
+								<img class="img-filosofos" src="<?= base_url('public/imagens/Filosofo2.png'); ?>">
 							</div>
 							<div class="col-4 comeu">
 								<h6 id="f2-comeu">Comeu<br><?php if(isset($_GET['filo2_comeu'])) echo $_GET['filo2_comeu']; ?> de 3</h6>
@@ -121,7 +121,7 @@
 						</div>
 						<div class="col-12">
 							<div class="col-3">
-								<img class="img-filosofos" src="<?= base_url('imagens/Filosofo3.png'); ?>">
+								<img class="img-filosofos" src="<?= base_url('public/imagens/Filosofo3.png'); ?>">
 							</div>
 							<div class="col-4 comeu">
 								<h6 id="f3-comeu">Comeu<br><?php if(isset($_GET['filo3_comeu'])) echo $_GET['filo3_comeu']; ?> de 5</h6>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="col-12">
 							<div class="col-3">
-								<img class="img-filosofos" src="<?= base_url('imagens/Filosofo4.png'); ?>">
+								<img class="img-filosofos" src="<?= base_url('public/imagens/Filosofo4.png'); ?>">
 							</div>
 							<div class="col-4 comeu">
 								<h6 id="f4-comeu">Comeu<br><?php if(isset($_GET['filo4_comeu'])) echo $_GET['filo4_comeu']; ?> de 3</h6>
@@ -143,7 +143,7 @@
 						</div>
 						<div class="col-12">
 							<div class="col-3">
-								<img class="img-filosofos" src="<?= base_url('imagens/Filosofo5.png'); ?>">
+								<img class="img-filosofos" src="<?= base_url('public/imagens/Filosofo5.png'); ?>">
 							</div>
 							<div class="col-4 comeu">
 								<h6 id="f5-comeu">Comeu<br><?php if(isset($_GET['filo5_comeu'])) echo $_GET['filo5_comeu']; ?> de 5</h6>
@@ -166,8 +166,8 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('imagens/seta_voltar.png'); ?>"></a>
-      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url('imagens/icon_home.png'); ?>"></a>
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('public/imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url('public/imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
 				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
@@ -200,27 +200,27 @@
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<img class="dev01" src="<?= base_url('imagens/desenvolvedor01.jpg'); ?>">
+	        			<img class="dev01" src="<?= base_url('public/imagens/desenvolvedor01.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev02" src="<?= base_url('imagens/desenvolvedor02.jpg'); ?>">
+	        			<img class="dev02" src="<?= base_url('public/imagens/desenvolvedor02.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev03" src="<?= base_url('imagens/desenvolvedor03.jpg'); ?>">
+	        			<img class="dev03" src="<?= base_url('public/imagens/desenvolvedor03.jpg'); ?>">
 	        		</div>
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        	</div>
 	        </div>
