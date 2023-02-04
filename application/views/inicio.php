@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>Desafio dos Filósofos</title>
-	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/geral.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/inicio.css'); ?>">
-	<link rel="icon" href="<?= base_url('public/imagens/Deadlock-Jantar.png'); ?>">
-	<link rel="stylesheet" href="<?= base_url('public/css/bootstrap.min.css'); ?>">
-	<script src="<?= base_url('public/js/jquery.min.js'); ?>"></script>
-	<script src="<?= base_url('public/js/popper.min.js'); ?>"></script>
-	<script src="<?= base_url('public/js/bootstrap.min.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?= base_url(PUBLIC_LINK.'css/geral.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url(PUBLIC_LINK.'css/inicio.css'); ?>">
+	<link rel="icon" href="<?= base_url(PUBLIC_LINK.'imagens/Deadlock-Jantar.png'); ?>">
+	<link rel="stylesheet" href="<?= base_url(PUBLIC_LINK.'css/bootstrap.min.css'); ?>">
+	<script src="<?= base_url(PUBLIC_LINK.'js/jquery.min.js'); ?>"></script>
+	<script src="<?= base_url(PUBLIC_LINK.'js/popper.min.js'); ?>"></script>
+	<script src="<?= base_url(PUBLIC_LINK.'js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundoI" class="container">
@@ -51,27 +51,27 @@
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<img class="dev01" src="<?= base_url('public/imagens/desenvolvedor01.jpg'); ?>">
+	        			<img class="dev01" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor01.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev02" src="<?= base_url('public/imagens/desenvolvedor02.jpg'); ?>">
+	        			<img class="dev02" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor02.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev03" src="<?= base_url('public/imagens/desenvolvedor03.jpg'); ?>">
+	        			<img class="dev03" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor03.jpg'); ?>">
 	        		</div>
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        	</div>
 	        </div>

@@ -2,20 +2,20 @@
 <html>
 <head>
 	<title>Desafio 1</title>
-	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/geral.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?= base_url('public/css/desafio01.css'); ?>">
-	<link rel="icon" href="<?= base_url('public/imagens/Deadlock-Jantar.png'); ?>">
-	<link rel="stylesheet" href="<?= base_url('public/css/bootstrap.min.css'); ?>">
-	<script src="<?= base_url('public/js/jquery.min.js'); ?>"></script>
-	<script src="<?= base_url('public/js/popper.min.js'); ?>"></script>
-	<script src="<?= base_url('public/js/bootstrap.min.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?= base_url(PUBLIC_LINK.'css/geral.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url(PUBLIC_LINK.'css/desafio01.css'); ?>">
+	<link rel="icon" href="<?= base_url(PUBLIC_LINK.'imagens/Deadlock-Jantar.png'); ?>">
+	<link rel="stylesheet" href="<?= base_url(PUBLIC_LINK.'css/bootstrap.min.css'); ?>">
+	<script src="<?= base_url(PUBLIC_LINK.'js/jquery.min.js'); ?>"></script>
+	<script src="<?= base_url(PUBLIC_LINK.'js/popper.min.js'); ?>"></script>
+	<script src="<?= base_url(PUBLIC_LINK.'js/bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 	<div id="fundo" class="container">
 		<div class="row">
 			<div class="jantar col-7">
 				<div class="imags">
-					<img src="<?= base_url('public/imagens/ojantar_filosofos.png'); ?>">
+					<img src="<?= base_url(PUBLIC_LINK.'imagens/ojantar_filosofos.png'); ?>">
 				</div>
 			</div>
 			<div class="col-5">
@@ -31,8 +31,8 @@
 	<div class="footer">
 		<div class="row">
 			<div class="col">
-      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url('public/imagens/seta_voltar.png'); ?>"></a>
-      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url('public/imagens/icon_home.png'); ?>"></a>
+      			<a class="link" onclick="voltar();"><img class="seta" src="<?= base_url(PUBLIC_LINK.'imagens/seta_voltar.png'); ?>"></a>
+      			<a class="link" onclick="home();"><img class="icon_home" src="<?= base_url(PUBLIC_LINK.'imagens/icon_home.png'); ?>"></a>
 			</div>
 			<div class="col">
 				<h6 class="creditos">Desenvolvido por <a class="link" data-target="#ExemploModalCentralizado" data-toggle="modal">Alunos de Computação</a></h6>
@@ -65,27 +65,27 @@
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<img class="dev01" src="<?= base_url('public/imagens/desenvolvedor01.jpg'); ?>">
+	        			<img class="dev01" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor01.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev02" src="<?= base_url('public/imagens/desenvolvedor02.jpg'); ?>">
+	        			<img class="dev02" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor02.jpg'); ?>">
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<img class="dev03" src="<?= base_url('public/imagens/desenvolvedor03.jpg'); ?>">
+	        			<img class="dev03" src="<?= base_url(PUBLIC_LINK.'imagens/desenvolvedor03.jpg'); ?>">
 	        		</div>
 	        	</div>
 	        	<div class="row">
 	        		<div class="col text-center">
-	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:cleytonbritto3003@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/CleitonBrito" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhavidy0800@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/DhavidyAlmeida12" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        		<div class="col-md text-center">
-	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url('public/imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
-	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url('public/imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
+	        			<a href="mailto:dhevidy08000@gmail.com"><img class="icon-email" src="<?= base_url(PUBLIC_LINK.'imagens/icon_email.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="E-mail"></a>
+	        			<a href="https://github.com/dhevidy" target="_black"><img class="icon-github" src="<?= base_url(PUBLIC_LINK.'imagens/icon_github.png'); ?>" data-toggle="tooltip" data-placement="bottom" title="GitHub"></a>
 	        		</div>
 	        	</div>
 	        </div>
